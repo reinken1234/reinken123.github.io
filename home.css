@@ -1,0 +1,137 @@
+body{
+    background: whitesmoke;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    background: white;
+    padding: 1em;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+span{
+    color: blue;
+}
+a {
+    color: chocolate;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+section {
+    padding: 5em 2em;
+ }
+ .hero {
+     text-align: center;
+ }
+ .subhead {
+     text-transform: uppercase;
+     font-weight: bold;
+     color: gray;
+     letter-spacing: .3em;
+ }
+ h1 {
+     font-size: 2.5em;
+     line-height: 1.3em;
+     margin-top: .2em;
+ }
+ .primary-cta {
+     background: blue;
+     color: white;
+     text-decoration: none;
+     padding: .6em 1.3em;
+     font-size: 1.4em;
+     border-radius: 5em;
+     font-weight: bold;
+     display: inline-block;
+ }
+ img {
+     margin-right: .5em;
+ }
+ .features-section {
+     background: grey;
+     color: white;
+ }
+ .features-list {
+     margin: 0;
+     padding-left: .1em;
+ }
+ li {
+     font-size: 1.1em;
+     margin-bottom: 1em;
+     margin-left: 2em;
+     position: relative;
+
+ }
+
+ .testimonials-section {
+     background: blue;
+     color: white;
+ }
+ .walker {
+     width: 5em;
+     height: 8em;
+     border:  5px solid blue;
+     border-radius: 50%;
+     margin-top: -4.5em;
+ }
+ .persons {
+     background: darkblue;
+     text-align: center;
+     padding: 2em 1em;
+     width: 80%;
+     margin: 0 auto 5em auto;
+     border-radius: 1em;
+ }
+ h2 {
+     font-size: 2em;
+ }
+ label {
+     display: block;
+     font-size: 1.2em;
+     margin-bottom: .5em;
+ }
+
+ input, textarea {
+     width: 100%;
+     padding: .8em;
+     margin-bottom: 1em;
+     border-radius: .3em;
+     border: 1px solid grey;
+     box-sizing: border-box;
+ }
+ input[type="submit"] {
+     background-color: blue;
+     color: white;
+     font-weight: bold;
+     font-size: 1.3em;
+     border: none;
+     margin-bottom: 5em;
+     border-radius: 5em;
+     display: inline-block;
+     padding: .8em 2em;
+     width: unset;
+     cursor: pointer;
+ }
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background:dark grey;
+    height: 100vh;
+    padding: 1em;
+
+}
+.primary-nav {
+    margin-top:  5em;
+}
